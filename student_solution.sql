@@ -1,6 +1,5 @@
-use merlin063;
-alter table stutent
-add Email varchar(30);
-alter table stutent
-add Phonenumber int(10);
-desc stutent;
+USE CollegeDB;
+
+ALTER TABLE Student
+ADD COLUMN Email VARCHAR(100),
+ADD COLUMN PhoneNumber VARCHAR(15);
